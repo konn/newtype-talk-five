@@ -1,0 +1,39 @@
+resolver: ghc-8.6.0.20180714
+compiler: ghc-8.6.0.20180714
+skip-ghc-check: true
+ghc-variant: macosx
+install-ghc: true
+allow-newer: true
+
+packages:
+- .
+extra-deps:
+- aeson-1.4.0.0
+- attoparsec-0.13.2.2
+- base-compat-0.10.4
+- dlist-0.8.0.4
+- hashable-1.2.7.0
+- integer-logarithms-1.0.2.1
+- old-locale-1.0.0.7
+- primitive-0.6.4.0
+- random-1.1
+- reflection-2.1.4
+- scientific-0.3.6.2
+- tagged-0.8.6
+- th-abstraction-0.2.8.0
+- time-locale-compat-0.1.1.4
+- unordered-containers-0.2.9.0
+- uuid-types-1.0.3
+- vector-0.12.0.1
+
+setup-info:
+  ghc:
+    macosx-custom-macosx:
+      8.6.0.20180714: 
+        url: "https://downloads.haskell.org/~ghc/8.6.1-alpha2/ghc-8.6.0.20180714-x86_64-darwin.tar.xz"
+        sha1: 4b325a42d27e94799dc11d1c475167ab802264fa
+    linux64:
+      8.6.0.20180714: 
+        url: "https://downloads.haskell.org/~ghc/8.6.1-alpha2/ghc-8.6.0.20180714-x86_64-deb8-linux.tar.xz"
+        sha1: c3218983cbfce00045b6dd12f6d235895a8bf5f1
+
