@@ -2,19 +2,14 @@
 Talk Slides (in Japanese): [Speaker Deck][SD] [PDF][PDF], [Keynote][Keynote]
 
 ## Explanation
-- **[`example.hs`](app/example.hs)**
-
+- **[`example.hs`](app/example.hs)**  
   User-site example of `DerivingVia`, including isomorphic instance derivation exmaples.
-- **[`Data.Aeson.Generic.DerivingVia`](src/Data/Aeson/Generic/DerivingVia.hs)**
-
+- **[`Data.Aeson.Generic.DerivingVia`](src/Data/Aeson/Generic/DerivingVia.hs)**  
   Detailed implementation for the type-driven derivation interface for JSON (de)serialisation with `DerivingVia` and type-level hacks.
-- **[`Data.DerivingIso`](src/Data/DerivingIso.hs)**
-
+- **[`Data.DerivingIso`](src/Data/DerivingIso.hs)**  
   Derivation between isomorphic types with `DerivingVia`, as described in the [original paper][paper].
-
-- **[`Data.Foldable.Monoid`](src/Data/Foldable/Monoid.hs)**
-
-  Expository module which describes the connectio between `Foldable` (and `Traversable`) and [free monoid constructions][free].
+- **[`Data.Foldable.Monoid`](src/Data/Foldable/Monoid.hs)**  
+  Expository module which describes the connection between `Foldable` (and `Traversable`) and [free monoid constructions][free].
   This also utilizes the [`QuantifiedConstraints`][QC] extension to express the freeness as a type-class constraint, which is also introduced in GHC 8.6.
 
 
