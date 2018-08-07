@@ -1,5 +1,5 @@
 # Playground for `DerivingVia` language extension of GHC 8.6
-Talk Slides (in Japanese): [Speaker Deck][SD] [PDF][PDF], [Keynote][Keynote]
+Talk Slides (in Japanese): [Speaker Deck][SD], [PDF][PDF], [Keynote][Keynote]
 
 ## Explanation
 - **[`example.hs`](app/example.hs)**  
