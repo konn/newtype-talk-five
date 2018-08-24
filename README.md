@@ -1,5 +1,6 @@
 # Playground for `DerivingVia` language extension of GHC 8.6
-Talk Slides (in Japanese): [Speaker Deck][SD], [PDF][PDF], [Keynote][Keynote]
+* Talk Slides (in Japanese): [Speaker Deck][SD], [PDF][PDF], [Keynote][Keynote]
+* English version: [Speaker Deck][SDE], [PDF][PDFE], [Keynote][KeynoteE]
 
 ## Explanation
 - **[`example.hs`](app/example.hs)**  
@@ -17,6 +18,9 @@ Talk Slides (in Japanese): [Speaker Deck][SD], [PDF][PDF], [Keynote][Keynote]
 [SD]: http://bit.ly/derivia
 [PDF]: slides/slide.pdf
 [Keynote]: slides/slide.key
+[SDE]: http://bit.ly/derivia-eng
+[PDFE]: slides/slides-english.pdf
+[KeynoteE]: slides/slides-english.key
 [paper]: https://www.kosmikus.org/DerivingVia/deriving-via-paper.pdf
 [free]: https://en.wikipedia.org/wiki/Free_object
 
